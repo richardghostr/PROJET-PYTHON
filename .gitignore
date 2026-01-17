@@ -3,6 +3,5 @@
 .csv
 enriched_cves.csv
 consolidated_data.csv
-files
 test.py
 __pycache__
