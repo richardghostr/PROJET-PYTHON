@@ -32,7 +32,7 @@ st.info("Cet email est lu depuis votre fichier `.env`. Le mot de passe d'applica
 
 # Utiliser st.session_state pour conserver l'email du destinataire
 if 'to_email' not in st.session_state:
-    st.session_state.to_email = "noe.wales@laposte.net" # Valeur par défaut
+    st.session_state.to_email = "esil@gmail.com" # Valeur par défaut
 
 to_email = st.text_input("Email du destinataire", value=st.session_state.to_email)
 st.session_state.to_email = to_email # Mettre à jour l'état de la session à chaque saisie
